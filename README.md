@@ -8,7 +8,7 @@ dotnet publish -c Release
 
 docker build 
 ============
-docker build -t webapiswagger .
+docker build -t webapiswagger . -f Dockerfile
 
 docker run command
 ==================
